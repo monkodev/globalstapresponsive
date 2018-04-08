@@ -454,6 +454,20 @@ height: 90%;
 
 }
 
+.ir-arriba3 {
+    display:inline;
+    padding:20px;   
+    opacity:1;
+    font-size:14px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:50px;
+    right:0px;
+   height:60px;
+
+}
+
 .ir-arriba2 p {
 text-align:right;
 position:static;
@@ -494,6 +508,7 @@ position: fixed; /* Hacemos que la posición en pantalla sea fija para que siemp
 left: 0; /* Establecemos la barra en la izquierda */
 top: 200px; /* Bajamos la barra 200px de arriba a abajo */
 z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+float: left;
 }
 
 .sociala ul {
@@ -501,7 +516,6 @@ list-style: none;
 }
 
 .sociala ul li a {
-display: inline-block;
 color:#fff;
 background: #000;
 padding: 10px 15px;
