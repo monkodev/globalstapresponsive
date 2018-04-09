@@ -121,6 +121,10 @@ margin-top: 10%;
     opacity:0.5; 
     color: white;
 }
+.caja .dropito {
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
 .sociala {
 
@@ -162,7 +166,7 @@ padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el m
 }
 
 @media(max-width: 750px){
-
+    .dropito {display: none;}
     .veintepo{display: none;
 
     }
@@ -180,12 +184,13 @@ padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el m
 @media(max-width: 750px){
 body{    background-image: url(../img/aus2-verse.jpg);
 }
+.dropito{display: block;}
 .caja {margin-top: 60px;}
 .caja h5 {display:block;}
 .sociala {top: 130px; }
 }
 @media(min-width: 750px){
-
+.dropito {display: none;}
 .caja h5 {display:none;}
 .caja .ghost {padding-top: 0px;
 }
