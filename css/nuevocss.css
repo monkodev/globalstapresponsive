@@ -80,8 +80,9 @@ margin-top: 10%;
   width: 250px; height: 170px;
 }
 .caja img.tamanovive {
-  width: 130px; height: 130px;
+  width: 110px; height: 110px;
   padding-top: 20px;
+
 
 }
 
@@ -121,11 +122,28 @@ margin-top: 10%;
     opacity:0.5; 
     color: white;
 }
-.caja .dropito {
-    margin-top: 0px;
-    padding-top: 0px;
+.dropito {
+  height:10%;
+   margin-top: 10%;
+  text-align: center;
+  
+ cursor:pointer;
+
+
+ 
+  -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+           border-radius: 35px;
+  
 }
 
+.dropdown-menu-center {
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+  border: 1px solid blue;
+}
 .sociala {
 
 position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
@@ -185,7 +203,8 @@ padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el m
 body{    background-image: url(../img/aus2-verse.jpg);
 }
 .dropito{display: block;}
-.caja {margin-top: 60px;}
+.caja {margin-top: 60px;
+        margin-right: 0px;}
 .caja h5 {display:block;}
 .sociala {top: 130px; }
 }
