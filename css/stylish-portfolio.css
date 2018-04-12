@@ -355,11 +355,6 @@ footer {
     padding: 0px 0;
 }
 
-prefooter {
-padding: 20px 0;
-height:200px;
- }
- 
 .preprefooter {
 padding-top:20px;
  height:90px;
@@ -503,6 +498,11 @@ position:static;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.ban1 {width: 200px;
+        height: 130px;}
+.ban2{width: 135px;
+        height: 100px;}
 .sociala {
 position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 left: 0; /* Establecemos la barra en la izquierda */
