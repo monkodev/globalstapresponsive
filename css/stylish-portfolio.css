@@ -370,7 +370,6 @@ padding-top:10px;
  background-color:#D9D9D9;
  font-size: 16px;
  font-family:Arial Black;
- 
   }
   
  .pader {
@@ -499,10 +498,11 @@ position:static;
     -o-background-size: cover;
 }
 
-.ban1 {width: 200px;
-        height: 130px;}
-.ban2{width: 135px;
-        height: 100px;}
+.ban2{width: 115px;
+        height: 90px;}
+ .kalamm {font-family: 'Raleway', sans-serif;
+  font-size: 20px;}
+
 .sociala {
 position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 left: 0; /* Establecemos la barra en la izquierda */
