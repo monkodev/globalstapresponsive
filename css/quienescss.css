@@ -19,6 +19,19 @@
 
 @media(min-width: 991px){
   .dropito {display: none;}
-  .about .sociala {top: 80px; }
+  .sociala {top: 200px; }
+}
+
+@media(max-width: 991px){  
+  .sociala {top: 40px; }  
+}
+@media(max-width: 460px){  
+  
+    .preprefooter1 {height: 150px;}
+  
+}
+@media(min-width: 460px){  
+  
+    .preprefooter1 {height: 70px;}
   
 }
