@@ -128,5 +128,5 @@ padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el m
 @media(max-width: 780px){
 .pegadoabajo {
 	
-	padding-left: 60px;
+	padding-left: 30px;
 }
